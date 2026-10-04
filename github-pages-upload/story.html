@@ -1,0 +1,970 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="王梓萌的个人履历网站，聚焦品牌传播、内容营销与产品运营。"
+    >
+    <meta name="theme-color" content="#f5f1e8">
+    <title>王梓萌 | Content, Brand &amp; Product Operations</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=layout-polish-final-20261005">
+    <noscript>
+      <style>
+        .reveal {
+          opacity: 1;
+          transform: none;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body class="content-page story-page">
+    <a class="skip-link" href="#main-content" data-zh="跳到主要内容" data-en="Skip to content">
+      跳到主要内容
+    </a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <aside class="timeline-dock" aria-label="Resume timeline">
+      <div class="timeline-dock-track" aria-hidden="true">
+        <span data-timeline-fill></span>
+      </div>
+      <div class="timeline-dock-current" aria-live="polite">
+        <span data-zh="当前章节" data-en="Now viewing">当前章节</span>
+        <strong data-timeline-current>主界面</strong>
+      </div>
+      <nav class="timeline-dock-nav" aria-label="Timeline navigation">
+        <a
+          href="#chapter-gate"
+          data-timeline-link
+          data-timeline-zh="主界面"
+          data-timeline-en="Start"
+          aria-label="主界面"
+        >
+          <span class="timeline-node-index">00</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="主界面" data-en="Start">主界面</span>
+        </a>
+        <a
+          href="#chapter-gate"
+          data-timeline-link
+          data-timeline-zh="章节入口"
+          data-timeline-en="Start"
+          aria-label="章节入口"
+        >
+          <span class="timeline-node-index">01</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="入口" data-en="Start">入口</span>
+        </a>
+        <a
+          href="#profile"
+          data-timeline-link
+          data-timeline-zh="个人履历"
+          data-timeline-en="Profile"
+          aria-label="个人履历"
+        >
+          <span class="timeline-node-index">02</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="履历" data-en="Profile">履历</span>
+        </a>
+        <a
+          href="#about"
+          data-timeline-link
+          data-timeline-zh="关于我"
+          data-timeline-en="About"
+          aria-label="关于我"
+        >
+          <span class="timeline-node-index">03</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="关于我" data-en="About me">关于我</span>
+        </a>
+        <a
+          href="#education"
+          data-timeline-link
+          data-timeline-zh="教育经历"
+          data-timeline-en="Education"
+          aria-label="教育经历"
+        >
+          <span class="timeline-node-index">04</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="教育" data-en="Education">教育</span>
+        </a>
+        <a
+          href="#experience"
+          data-timeline-link
+          data-timeline-zh="工作经历"
+          data-timeline-en="Experience"
+          aria-label="工作经历"
+        >
+          <span class="timeline-node-index">05</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="经历" data-en="Experience">经历</span>
+        </a>
+        <a
+          href="#projects"
+          data-timeline-link
+          data-timeline-zh="精选项目"
+          data-timeline-en="Projects"
+          aria-label="精选项目"
+        >
+          <span class="timeline-node-index">06</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="项目" data-en="Projects">项目</span>
+        </a>
+        <a
+          href="#skills"
+          data-timeline-link
+          data-timeline-zh="能力地图"
+          data-timeline-en="Skills"
+          aria-label="能力地图"
+        >
+          <span class="timeline-node-index">07</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="能力" data-en="Skills">能力</span>
+        </a>
+        <a
+          href="#contact"
+          data-timeline-link
+          data-timeline-zh="联系"
+          data-timeline-en="Contact"
+          aria-label="联系"
+        >
+          <span class="timeline-node-index">08</span>
+          <span class="timeline-node-dot"></span>
+          <span class="timeline-node-label" data-zh="联系" data-en="Contact">联系</span>
+        </a>
+      </nav>
+    </aside>
+
+    <header class="site-header" id="top">
+      <a class="home-link" href="index.html" aria-label="主界面 Home">
+        <img src="assets/nolimtia-logo.svg?v=4" alt="" aria-hidden="true">
+      </a>
+      <nav class="chapter-line-nav" aria-label="Chapter navigation">
+        <a class="is-current" href="story.html" data-zh="个人履历和成长线" data-en="Profile &amp; growth">
+          <span>01</span>个人履历和成长线
+        </a>
+        <span class="chapter-line-divider" aria-hidden="true">/</span>
+        <a href="work.html" data-zh="项目联系与能力" data-en="Projects &amp; skills">
+          <span>02</span>项目联系与能力
+        </a>
+      </nav>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about" data-zh="关于我" data-en="About me">关于我</a>
+        <a href="#education" data-zh="教育" data-en="Education">教育</a>
+        <a href="#experience" data-zh="经历" data-en="Experience">经历</a>
+        <a href="#contact" data-zh="联系" data-en="Contact">联系</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="music-toggle" type="button" aria-label="关闭背景音乐" aria-pressed="true" title="关闭背景音乐">
+          <span class="music-toggle-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="music-toggle-state">ON</span>
+        </button>
+        <div class="language-toggle" aria-label="Language selector">
+          <button type="button" class="is-active" data-language="zh">中</button>
+          <button type="button" data-language="en">EN</button>
+        </div>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-navigation"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation">
+      <a class="mobile-home-logo" href="index.html" aria-label="主界面 Home">
+        <img src="assets/nolimtia-logo.svg?v=4" alt="" aria-hidden="true">
+      </a>
+      <a href="#about" data-zh="关于我" data-en="About me">关于我</a>
+      <a href="#education" data-zh="教育" data-en="Education">教育</a>
+      <a href="#experience" data-zh="工作与实习" data-en="Experience">工作与实习</a>
+      <a href="#contact" data-zh="联系" data-en="Contact">联系</a>
+    </nav>
+
+    <main id="main-content">
+      <section class="chapter-gate" id="chapter-gate" aria-label="Resume paths">
+        <div class="gate-orbits" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="gate-shell">
+          <div class="gate-intro reveal">
+            <p class="gate-kicker" data-zh="从这里开始" data-en="Start here">从这里开始</p>
+            <h2 data-zh="走入我的世界，探索我的轨迹" data-en="Step into my world and trace my journey.">
+              走入我的世界，探索我的轨迹
+            </h2>
+          </div>
+
+          <div class="gate-paths reveal">
+            <a class="gate-card gate-card-story" href="story.html" data-cursor-card>
+              <span class="gate-card-index">01</span>
+              <span class="gate-card-type" data-zh="故事路径" data-en="Story route">故事路径</span>
+              <strong data-zh="个人履历与成长线" data-en="Profile, education, experience">个人履历与成长线</strong>
+              <small data-zh="从自我介绍、教育背景到实习经历的职业叙事。" data-en="Read the profile, education, and experience as a focused career story.">
+                从自我介绍、教育背景到实习经历的职业叙事。
+              </small>
+              <span class="gate-card-action" data-zh="进入故事" data-en="Enter story">进入故事</span>
+            </a>
+
+            <a class="gate-card gate-card-work" href="work.html" data-cursor-card>
+              <span class="gate-card-index">02</span>
+              <span class="gate-card-type" data-zh="项目和能力路径" data-en="Projects and capability pathways">项目和能力路径</span>
+              <strong data-zh="项目、能力与联系" data-en="Projects, skills, contact">项目、能力与联系</strong>
+              <small data-zh="快速看 Starbucks、抖音等项目经历，以及可直接联系的行动入口。" data-en="Jump into project cases, skill signals, and direct contact actions.">
+                快速看 Starbucks、抖音等项目经历，以及可直接联系的行动入口。
+              </small>
+              <span class="gate-card-action" data-zh="查看项目经历" data-en="View project experience">查看项目经历</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero profile-hero" id="profile">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span data-zh="个人履历" data-en="Personal folio">个人履历</span>
+          </p>
+          <h1 data-zh="Hey，我是王梓萌" data-en="Hey，I'm Tia Wang">Hey，我是王梓萌</h1>
+          <div class="hero-about" id="about">
+            <h2 data-zh="“读懂数据背后的需求，用内容让策略精准抵达人心”" data-en="Uncover the needs behind the data, then make strategy resonate through content.">“读懂数据背后的需求，用内容让策略精准抵达人心”</h2>
+            <p data-zh="本科就读于悉尼大学数字文化与视觉传达专业，目前在华盛顿大学攻读数字媒体传播硕士。我的经历跨越品牌传播、社交媒体、内容运营和产品运营；我从用户洞察出发，把策略落到内容、渠道与执行路径上。我擅长跨文化沟通，也重视数据复盘，能够推动不同团队把想法变成可以落地的项目。" data-en="I studied Digital Culture and Visual Communication at the University of Sydney and am now pursuing a master’s in Digital Media Communication at the University of Washington. My experience spans brand, social, content, and product operations. I turn audience insight into content, channels, and execution. I value cross-cultural communication and data-informed iteration, and enjoy helping teams turn ideas into work that ships.">本科就读于悉尼大学数字文化与视觉传达专业，目前在华盛顿大学攻读数字媒体传播硕士。我的经历跨越品牌传播、社交媒体、内容运营和产品运营；我从用户洞察出发，把策略落到内容、渠道与执行路径上。我擅长跨文化沟通，也重视数据复盘，能够推动不同团队把想法变成可以落地的项目。</p>
+            <p data-zh="我的兴趣爱好广泛，喜欢唱歌、摄影、徒步和健身，尤其喜欢可爱的毛孩子！欢迎来找我喝咖啡，Feel free to talk！" data-en="Outside work, I enjoy singing, photography, hiking, and fitness. I especially love adorable furry friends! Let’s grab coffee. Feel free to talk!">我的兴趣爱好广泛，喜欢唱歌、摄影、徒步和健身，尤其喜欢可爱的毛孩子！欢迎来找我喝咖啡，Feel free to talk！</p>
+            <div class="hero-about-tags" aria-label="Strengths">
+              <span data-zh="消费者洞察" data-en="Consumer insight">消费者洞察</span>
+              <span data-zh="内容策略" data-en="Content strategy">内容策略</span>
+              <span data-zh="跨文化沟通" data-en="Cross-cultural communication">跨文化沟通</span>
+            </div>
+          </div>
+          <p class="hero-availability">
+            <span class="preference-label" data-zh="意向岗位" data-en="Target roles">意向岗位</span>
+            <span data-zh="运营 / 市场 / 品牌 / 产品营销" data-en="Operations / Marketing / Brand / Product Marketing">运营 / 市场 / 品牌 / 产品营销</span>
+          </p>
+          <p class="hero-cities">
+            <span class="preference-label" data-zh="意向城市" data-en="Cities">意向城市</span>
+            <span data-zh="上海 · 北京 · 深圳 · 天津 · 杭州 · 成都 · 广州" data-en="Shanghai · Beijing · Shenzhen · Tianjin · Hangzhou · Chengdu · Guangzhou">上海 · 北京 · 深圳 · 天津 · 杭州 · 成都 · 广州</span>
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#experience">
+              <span data-zh="查看经历" data-en="Explore my work">查看经历</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a class="button button-outline" href="assets/tia-resume-cn.pdf" data-language-resume download>
+              <span data-zh="下载简历" data-en="Download CV">下载简历</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <button class="button button-outline hero-email-action" type="button" data-copy-send-email>
+              <span data-zh="复制并发送邮件" data-en="Copy &amp; send email">复制并发送邮件</span>
+              <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+        </div>
+
+        <figure
+          class="portrait-collage"
+          aria-label="Portrait of Tia Wang"
+        >
+          <img
+            src="assets/tia-portrait-latest.jpg"
+            alt="王梓萌在 Pacific Park 的照片"
+            width="1498"
+            height="2400"
+            loading="eager"
+            decoding="sync"
+            fetchpriority="high"
+          >
+        </figure>
+
+      </section>
+
+      <section class="education-section" id="education">
+        <div class="section-shell">
+          <header class="section-heading reveal">
+            <span class="section-number">02</span>
+            <div>
+              <p class="section-kicker" data-zh="教育与校园经历" data-en="Education &amp; campus">教育与校园经历</p>
+            </div>
+          </header>
+
+          <div class="education-layout">
+            <article class="education-item reveal">
+              <figure class="education-photo">
+                <img src="assets/uw-campus.jpg" alt="University of Washington campus" loading="lazy">
+              </figure>
+              <div class="education-copy">
+                <time datetime="2025-09">2025.09 - 2027.03</time>
+                <p class="education-place">University of Washington · Seattle</p>
+                <h3 data-zh="数字媒体传播 · 硕士" data-en="M.A. in Digital Media &amp; Communication">数字媒体传播 · 硕士</h3>
+                <p data-zh="核心课程：社交媒体传播与战略、用户界面与视觉设计、法律、数据与隐私、视频叙事基础" data-en="Core modules: Social Media Communication &amp; Strategy, UIUX/Visual Design, Law, Data &amp; Privacy, Fundamentals of Video Storytelling">
+                  核心课程：社交媒体传播与战略、用户界面与视觉设计、法律、数据与隐私、视频叙事基础
+                </p>
+              </div>
+            </article>
+
+            <article class="education-item reveal">
+              <figure class="education-photo">
+                <img src="assets/sydney-campus.jpg" alt="The University of Sydney campus" loading="lazy">
+              </figure>
+              <div class="education-copy">
+                <time datetime="2021-07">2021.07 - 2024.12</time>
+                <p class="education-place">The University of Sydney · Sydney</p>
+                <h3 data-zh="数字文化 &amp; 视觉艺术 · 文学学士" data-en="Bachelor of Arts in Digital Culture &amp; Visual Arts">数字文化 &amp; 视觉艺术 · 文学学士</h3>
+                <p data-zh="核心课程：市场营销原理、数字媒体、视觉艺术基础、经济统计学、计量经济学、微观经济学、互联网变革" data-en="Core modules: Marketing Principles, Digital Media, Foundations of Visual Arts, Statistics for Economics, Econometrics, Microeconomics, Internet Transformation">
+                  核心课程：市场营销原理、数字媒体、视觉艺术基础、经济统计学、计量经济学、微观经济学、互联网变革
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <article class="campus-story reveal">
+            <div class="campus-story-title">
+              <p class="project-type">CAMPUS / 01</p>
+              <h3>SRC · University of Sydney</h3>
+              <p data-zh="学生代表委员会常任专员" data-en="Standing Committee Member">学生代表委员会常任专员</p>
+            </div>
+            <div class="campus-story-copy">
+              <p
+                data-zh="经民主投票当选，代表留学生参与学生会事务决策，审批各学生部门活动预算与资源调配；主导校园传播策略，统筹媒体对接、文案撰写和海报设计。"
+                data-en="Elected to represent international students in student union decisions, reviewing event budgets and resource allocation. Led campus communications across media relations, copywriting, and poster design."
+              >
+                经民主投票当选，代表留学生参与学生会事务决策，审批各学生部门活动预算与资源调配；主导校园传播策略，统筹媒体对接、文案撰写和海报设计。
+              </p>
+              <div class="campus-metrics">
+                <span><strong>20+</strong> <small data-zh="学生申诉" data-en="Student cases">学生申诉</small></span>
+                <span><strong>3</strong> <small data-zh="留学生社群" data-en="Communities">留学生社群</small></span>
+                <span><strong>500</strong> <small data-zh="覆盖社群成员" data-en="Community members">覆盖社群成员</small></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience-section" id="experience">
+        <div class="section-shell">
+          <header class="section-heading reveal">
+            <span class="section-number">03</span>
+            <div>
+              <p class="section-kicker" data-zh="工作与实习" data-en="Experience">工作与实习</p>
+            </div>
+          </header>
+
+          <div class="experience-stage-layout">
+          <div class="chapter-list" data-experience-stage>
+            <article class="chapter chapter-red reveal">
+              <div class="chapter-meta">
+                <span class="chapter-index">01</span>
+                <time datetime="2026-07">2026.07 - 2026.09</time>
+                <span>Beijing</span>
+              </div>
+              <div class="chapter-main">
+                <div class="chapter-title-row">
+                  <div>
+                    <p class="chapter-company">ByteDance · TikTok Live</p>
+                    <h3 data-zh="产品运营实习生" data-en="Product Operations Intern">产品运营实习生</h3>
+                  </div>
+                  <span class="chapter-badge" data-zh="AI × 直播策略&amp;产品运营" data-en="AI × Live strategy &amp; products Ops">AI × 直播策略&amp;产品运营</span>
+                </div>
+                <p class="chapter-summary"
+                  data-zh="参与 TikTok Live 海外 ToB 端直播产品运营，服务公会经纪人与中腰部、尾部主播成长，负责 AI 辅助直播工具的功能验证、本地化、试点运营与迭代。"
+                  data-en="Supported overseas B2B product operations for TikTok Live, focusing on agency partners and emerging creators, with ownership across validation, localization, pilot operations, and iteration of AI-assisted livestream tools."
+                >
+                  参与 TikTok Live 海外 ToB 端直播产品运营，服务公会经纪人与中腰部、尾部主播成长，负责 AI 辅助直播工具的功能验证、本地化、试点运营与迭代。
+                </p>
+                <div class="chapter-details">
+                  <section>
+                    <h4 data-zh="智能提词" data-en="AI smart prompter">智能提词</h4>
+                    <p
+                      data-zh="结合 ASR、评论、打赏和粉丝团行为信号分析话题触发与下发效果，推动话题库从固定文案扩展为基于 TikTok 热度 Top 50 与事件导向的动态来源。试点阶段采纳率由约 30% 提升至约 50%。"
+                      data-en="Analyzed ASR, comments, gifts, and fan-group signals to improve topic triggers and delivery. Expanded the prompt library from fixed scripts to trending TikTok hashtags and event-driven topics, lifting adoption from about 30% to 50% during the pilot."
+                    >
+                      结合 ASR、评论、打赏和粉丝团行为信号分析话题触发与下发效果，推动话题库从固定文案扩展为基于 TikTok 热度 Top 50 与事件导向的动态来源。试点阶段采纳率由约 30% 提升至约 50%。
+                    </p>
+                  </section>
+                  <section>
+                    <h4 data-zh="本地化适配" data-en="Localization">本地化适配</h4>
+                    <p
+                      data-zh="针对 MENA 等市场中中文模板直译带来的语义偏差和字符超限，联动当地 POC 校准多语言话术，沉淀更新流程，并推动提词器容量由 50 字符扩展至 125 字符。"
+                      data-en="Worked with local POCs to refine multilingual scripts for MENA and other markets, documenting the update workflow and increasing prompter capacity from 50 to 125 characters."
+                    >
+                      针对 MENA 等市场中中文模板直译带来的语义偏差和字符超限，联动当地 POC 校准多语言话术，沉淀更新流程，并推动提词器容量由 50 字符扩展至 125 字符。
+                    </p>
+                  </section>
+                  <section>
+                    <h4 data-zh="AI 直播复盘" data-en="AI livestream reports">AI 直播复盘</h4>
+                    <p
+                      data-zh="参与 AI 直播复盘报告从 0 到 1 的试点验证，产出上百份 HTML 报告，覆盖中东 12 家及东南亚 2 家公会；通过访谈和表格反馈归纳语言、内容识别、结构及视频切片问题，支持 prompt 与报告模块迭代。"
+                      data-en="Supported the 0-to-1 pilot of AI-generated livestream reports and produced 100+ HTML reports for 12 MENA and 2 Southeast Asian agencies. Agency interviews and feedback informed prompt, content-recognition, structure, and video-clip improvements."
+                    >
+                      参与 AI 直播复盘报告从 0 到 1 的试点验证，产出上百份 HTML 报告，覆盖中东 12 家及东南亚 2 家公会；通过访谈和表格反馈归纳语言、内容识别、结构及视频切片问题，支持 prompt 与报告模块迭代。
+                    </p>
+                  </section>
+                </div>
+                <div class="chapter-footer">
+                  <div class="metric-strip">
+                    <span><strong>30% → 50%</strong> <small data-zh="话题采纳率" data-en="Topic adoption">话题采纳率</small></span>
+                    <span><strong>50 → 125</strong> <small data-zh="提词字符容量" data-en="Prompt characters">提词字符容量</small></span>
+                    <span><strong>100+</strong> <small data-zh="复盘报告" data-en="Reports">复盘报告</small></span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="chapter chapter-yellow reveal">
+              <div class="chapter-meta">
+                <span class="chapter-index">02</span>
+                <time datetime="2025-02">2025.02 - 2025.08</time>
+                <span>Beijing</span>
+              </div>
+              <div class="chapter-main">
+                <div class="chapter-title-row">
+                  <div>
+                    <p class="chapter-company">MSL · Publicis Groupe</p>
+                    <h3 data-zh="品牌传播 PR 实习生 · 医疗器械组" data-en="PR Intern · Medical Devices Team">品牌传播 PR 实习生 · 医疗器械组</h3>
+                  </div>
+                  <span class="chapter-badge" data-zh="整合营销" data-en="Integrated Comms">整合营销</span>
+                </div>
+                <p class="chapter-summary"
+                  data-zh="参与医疗器械行业品牌的传播与患者教育 Campaign，服务赛诺菲、信达生物、强生 MENTOR、爱尔康和沙特旅游局等项目，覆盖策略支持、内容执行与全渠道传播落地。"
+                  data-en="Supported integrated communications and patient-education campaigns for Sanofi, Innovent Biologics, Johnson &amp; Johnson MENTOR, Alcon, and the Saudi Tourism Authority, spanning strategy, content development, and omnichannel execution."
+                >
+                  参与医疗器械行业品牌的传播与患者教育 Campaign，服务赛诺菲、信达生物、强生 MENTOR、爱尔康和沙特旅游局等项目，覆盖策略支持、内容执行与全渠道传播落地。
+                </p>
+                <div class="chapter-details">
+                  <section>
+                    <h4 data-zh="赛诺菲 318 爱肝日" data-en="Sanofi Liver Care Campaign">赛诺菲 318 爱肝日</h4>
+                    <p
+                      data-zh="从客户调研中提炼“脂肪肝疾病认知缺失”的洞察，参与制定患者教育策略，策划易善复与南方周末《小心肝 大健康》中英双语微纪录片；协调纪录片拍摄、内容审核、9 位小宇宙博主合作，并支持人民日报健康客户端直播。"
+                      data-en="Identified the core insight around low public awareness of fatty liver disease, supported patient-education strategy, and contributed to a bilingual documentary with Southern Weekly. Coordinated production, reviews, nine podcast creator partnerships, and a People’s Daily Health livestream."
+                    >
+                      从客户调研中提炼“脂肪肝疾病认知缺失”的洞察，参与制定患者教育策略，策划易善复与南方周末《小心肝 大健康》中英双语微纪录片；协调纪录片拍摄、内容审核、9 位小宇宙博主合作，并支持人民日报健康客户端直播。
+                    </p>
+                  </section>
+                  <section>
+                    <h4 data-zh="新品上市传播" data-en="Product launches">新品上市传播</h4>
+                    <p
+                      data-zh="参与信达生物玛氏度肽核心卖点提炼、消费者语言转译与全渠道内容分发；支持强生 MENTOR 傲诺拉·炫彩新品新闻稿撰写及 2025 中国隆胸峰会现场执行。"
+                      data-en="Supported messaging development, consumer-language translation, and omnichannel distribution for Innovent’s new product. For Johnson &amp; Johnson MENTOR, supported press materials and on-site execution at the 2025 China Breast Augmentation Summit."
+                    >
+                      参与信达生物玛氏度肽核心卖点提炼、消费者语言转译与全渠道内容分发；支持强生 MENTOR 傲诺拉·炫彩新品新闻稿撰写及 2025 中国隆胸峰会现场执行。
+                    </p>
+                  </section>
+                  <section>
+                    <h4 data-zh="报告与跨文化传播" data-en="Research and global comms">报告与跨文化传播</h4>
+                    <p
+                      data-zh="独立分析爱尔康 × Z 世代零售健康报告洞察，协同视觉团队优化长图推文并跟踪舆情；参与沙特旅游局“寻梦沙特”在华活动的中英双语媒体对接与现场执行。"
+                      data-en="Analyzed Alcon’s Gen Z retail health report, collaborated on long-form visual content, and tracked media sentiment. Supported bilingual media relations and on-site execution for the Saudi Tourism Authority’s China campaign."
+                    >
+                      独立分析爱尔康 × Z 世代零售健康报告洞察，协同视觉团队优化长图推文并跟踪舆情；参与沙特旅游局“寻梦沙特”在华活动的中英双语媒体对接与现场执行。
+                    </p>
+                  </section>
+                </div>
+                <div class="metric-strip">
+                  <span><strong data-zh="714万+" data-en="7.14 million">714万+</strong> <small data-zh="全网播放" data-en="Views">全网播放</small></span>
+                  <span><strong data-zh="270万+" data-en="2.7 million">270万+</strong> <small data-zh="单场直播" data-en="Livestream views">单场直播</small></span>
+                  <span><strong>4</strong> <small data-zh="行业奖项" data-en="Industry awards">行业奖项</small></span>
+                </div>
+              </div>
+            </article>
+
+            <article class="chapter chapter-blue reveal">
+              <div class="chapter-meta">
+                <span class="chapter-index">03</span>
+                <time datetime="2024-12">2024.12 - 2025.02</time>
+                <span>Beijing</span>
+              </div>
+              <div class="chapter-main">
+                <div class="chapter-title-row">
+                  <div>
+                    <p class="chapter-company" data-zh="小红书" data-en="Rednotes">小红书</p>
+                    <h3 data-zh="社交市场部内容运营实习生" data-en="Social Marketing Intern">社交市场部内容运营实习生</h3>
+                  </div>
+                  <span class="chapter-badge" data-zh="热点内容" data-en="Trend Content">热点内容</span>
+                </div>
+                <p class="chapter-summary"
+                  data-zh="参与小红书春晚期间话题运营，服务《大家的春晚》与“TikTok 难民”两个重点项目，在直播实时性高、跨国流量突发的环境中完成话题策划、内容审核与数据追踪。"
+                  data-en="Supported Spring Festival topic operations for Everyone’s Spring Festival and the “TikTok Refugees” trend, managing planning, moderation, and performance tracking in a real-time, high-volume environment."
+                >
+                  参与小红书春晚期间话题运营，服务《大家的春晚》与“TikTok 难民”两个重点项目，在直播实时性高、跨国流量突发的环境中完成话题策划、内容审核与数据追踪。
+                </p>
+                <div class="chapter-details">
+                  <section>
+                    <h4 data-zh="春晚话题运营" data-en="Spring Festival topics">春晚话题运营</h4>
+                    <p
+                      data-zh="负责创作者话题引导、图文与短视频初筛、投流文案标准梳理和修改反馈。直播当天按节目单追踪自然热度、策划延伸话题，协同完成 UGC / KOL 内容审核与合规排查，保障 7 小时直播的内容安全。"
+                      data-en="Guided creators, reviewed posts and short videos, standardized paid-content copy, and gave revision feedback. During the live show, tracked organic momentum, developed follow-on topics, and supported UGC/KOL moderation across a seven-hour broadcast."
+                    >
+                      负责创作者话题引导、图文与短视频初筛、投流文案标准梳理和修改反馈。直播当天按节目单追踪自然热度、策划延伸话题，协同完成 UGC / KOL 内容审核与合规排查，保障 7 小时直播的内容安全。
+                    </p>
+                  </section>
+                  <section>
+                    <h4 data-zh="数据与跨文化运营" data-en="Data and cross-cultural operations">数据与跨文化运营</h4>
+                    <p
+                      data-zh="通过内部数据工具及 Excel 追踪话题热度并输出数据表，支持运营策略快速调整；在 TikTok 海外用户集中涌入期间，实时筛选审核跨语言、跨文化 UGC / KOL 内容并优化流量呈现。"
+                      data-en="Used internal tools and Excel to track topic performance and support rapid strategy adjustments. During the overseas user influx, reviewed multilingual and cross-cultural UGC/KOL content and helped optimize traffic allocation."
+                    >
+                      通过内部数据工具及 Excel 追踪话题热度并输出数据表，支持运营策略快速调整；在 TikTok 海外用户集中涌入期间，实时筛选审核跨语言、跨文化 UGC / KOL 内容并优化流量呈现。
+                    </p>
+                  </section>
+                </div>
+                <div class="metric-strip">
+                  <span><strong>590+</strong> <small data-zh="话题落地" data-en="Topic launches">话题落地</small></span>
+                  <span><strong data-zh="14亿+" data-en="1.4 billion">14亿+</strong> <small data-zh="项目互动量" data-en="Interactions">项目互动量</small></span>
+                </div>
+              </div>
+            </article>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <div class="section-shell">
+          <header class="section-heading reveal">
+            <span class="section-number">04</span>
+            <div>
+              <p class="section-kicker" data-zh="精选项目" data-en="Projects">精选项目</p>
+              <h2 data-zh="从一个洞察，走到完整方案" data-en="From a sharp insight to a full solution">
+                从一个洞察，走到完整方案
+              </h2>
+            </div>
+          </header>
+
+          <article class="featured-project reveal">
+            <div class="project-visual project-visual-starbucks" aria-hidden="true">
+              <img
+                src="assets/starbucks-naive-featured.png"
+                alt=""
+                width="4096"
+                height="4096"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="project-copy">
+              <p class="project-type" data-zh="品牌策略提案 · 项目负责人" data-en="Brand strategy proposal · Project lead">
+                品牌策略提案 · 项目负责人
+              </p>
+              <h3 data-zh="Starbucks APP 北美留学生整合营销策划" data-en="Starbucks APP Marketing Strategy for Chinese International Students">
+                Starbucks APP 北美留学生整合营销策划
+              </h3>
+              <p
+                data-zh="面向 18 至 28 岁北美中国留学生，识别其高频消费 Starbucks、却对 APP 在线点单与 DIY 饮品功能认知不足的行为缺口，并将 APP 从“点单工具”重塑为“温暖情感陪伴”。"
+                data-en="For Chinese international students aged 18 to 28 in North America, I identified a gap between frequent Starbucks consumption and low awareness of app ordering and drink customization, then repositioned the app as a warm emotional companion."
+              >
+                面向 18 至 28 岁北美中国留学生，识别其高频消费 Starbucks、却对 APP 在线点单与 DIY 饮品功能认知不足的行为缺口，并将 APP 从“点单工具”重塑为“温暖情感陪伴”。
+              </p>
+              <div class="project-tags">
+                <span data-zh="消费者洞察" data-en="Consumer insight">消费者洞察</span>
+                <span data-zh="内容体系" data-en="Content system">内容体系</span>
+                <span data-zh="渠道与预算" data-en="Channel &amp; budget">渠道与预算</span>
+              </div>
+              <div class="project-actions">
+                <button class="button button-primary" type="button" data-open-dialog="starbucks-dialog">
+                  <span data-zh="查看完整案例" data-en="View case study">查看完整案例</span>
+                  <span aria-hidden="true">↗</span>
+                </button>
+                <a
+                  class="button button-outline"
+                  href="assets/starbucks-proposal.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span data-zh="打开提案 PDF" data-en="Open proposal PDF">打开提案 PDF</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <div class="project-grid">
+            <article class="story-project story-project-green reveal">
+              <p class="project-type">PROJECT / 02</p>
+              <h3 data-zh="抖音直播运营" data-en="Douyin Livestream Operations">抖音直播运营</h3>
+              <p
+                data-zh="独立运营主播账号全链路，覆盖内容策划、实时提词、短视频与数据复盘。3 个月内粉丝从 2 万增长至 7 万，并搭建 7 个粉丝社群与品牌商务合作路径。"
+                data-en="Led end-to-end creator operations across content planning, live prompting, short-form video, and performance analysis. Grew followers from 20K to 70K in three months and built seven fan communities plus brand partnership workflows."
+              >
+                独立运营主播账号全链路，覆盖内容策划、实时提词、短视频与数据复盘。3 个月内粉丝从 2 万增长至 7 万，并搭建 7 个粉丝社群与品牌商务合作路径。
+              </p>
+              <div class="story-numbers">
+                <span><strong>800</strong> <small data-zh="场均在线" data-en="Avg. viewers">场均在线</small></span>
+                <span><strong>1,500</strong> <small data-zh="峰值在线" data-en="Peak viewers">峰值在线</small></span>
+                <span><strong>7</strong> <small data-zh="粉丝社群" data-en="Communities">粉丝社群</small></span>
+              </div>
+              <div class="project-actions">
+                <button class="button button-dark" type="button" data-open-dialog="douyin-dialog">
+                  <span data-zh="查看案例" data-en="View case">查看案例</span>
+                  <span aria-hidden="true">↗</span>
+                </button>
+                <a
+                  class="text-link"
+                  href="https://v.douyin.com/Xjl5zFWXbNA/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span data-zh="访问抖音账号" data-en="Visit Douyin">访问抖音账号</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="story-project story-project-pink reveal">
+              <p class="project-type">PROJECT / 03</p>
+              <h3 data-zh="为 K-pop 粉丝重设计 Duolingo 韩语学习体验" data-en="Redesigning Duolingo Korean Learning for K-pop Fans">
+                为 K-pop 粉丝重设计 Duolingo 韩语学习体验
+              </h3>
+              <p
+                data-zh="围绕 16 至 28 岁 K-pop 全球用户，提出“粉丝优先、偶像内容驱动、沉浸式文化学习”的产品定位，并完成产品原型与 3 轮一对一远程可用性测试。"
+                data-en="For global K-pop fans aged 16 to 28, defined a fan-first, idol-driven, culturally immersive product direction and built a prototype validated through three rounds of remote one-to-one usability testing."
+              >
+                围绕 16 至 28 岁 K-pop 全球用户，提出“粉丝优先、偶像内容驱动、沉浸式文化学习”的产品定位，并完成产品原型与 3 轮一对一远程可用性测试。
+              </p>
+              <div class="story-numbers">
+                <span><strong>16-28</strong> <small data-zh="目标用户" data-en="Target age">目标用户</small></span>
+                <span><strong>3</strong> <small data-zh="轮可用性测试" data-en="Test rounds">轮可用性测试</small></span>
+              </div>
+              <div class="project-actions">
+                <button class="button button-dark" type="button" data-open-dialog="duolingo-dialog">
+                  <span data-zh="查看案例" data-en="View case">查看案例</span>
+                  <span aria-hidden="true">↗</span>
+                </button>
+                <a
+                  class="text-link"
+                  href="https://www.figma.com/design/VzUCkEdf0CRMuUBTbE1hVF/Team-3-COMMLD-511-SP-26-Prototype?node-id=156-621"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span data-zh="查看 Figma 原型" data-en="View Figma prototype">查看 Figma 原型</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section" id="skills">
+        <div class="section-shell">
+          <header class="section-heading section-heading-light reveal">
+            <span class="section-number">05</span>
+            <div>
+              <p class="section-kicker" data-zh="能力与工具" data-en="Capabilities &amp; tools">能力与工具</p>
+              <h2 data-zh="能把事情想清楚，也能把它做出来" data-en="Clear thinking, grounded execution">
+                能把事情想清楚，也能把它做出来
+              </h2>
+            </div>
+          </header>
+
+          <div class="skills-layout">
+            <section class="skill-group reveal">
+              <span class="skill-number">01</span>
+              <h3 data-zh="洞察与策略" data-en="Insight &amp; strategy">洞察与策略</h3>
+              <p data-zh="消费者洞察、竞品分析、传播策略、产品定位、用户研究" data-en="Consumer insight, competitor analysis, communications strategy, product positioning, user research">
+                消费者洞察、竞品分析、传播策略、产品定位、用户研究
+              </p>
+            </section>
+            <section class="skill-group reveal">
+              <span class="skill-number">02</span>
+              <h3 data-zh="品牌与内容" data-en="Brand &amp; content">品牌与内容</h3>
+              <p data-zh="Campaign 策划、内容营销、达人合作、社媒运营、跨文化传播" data-en="Campaign planning, content marketing, creator partnerships, social operations, cross-cultural communications">
+                Campaign 策划、内容营销、达人合作、社媒运营、跨文化传播
+              </p>
+            </section>
+            <section class="skill-group reveal">
+              <span class="skill-number">03</span>
+              <h3 data-zh="产品与运营" data-en="Product &amp; operations">产品与运营</h3>
+              <p data-zh="功能试点、本地化、用户反馈、数据复盘、流程沉淀、社群运营" data-en="Feature pilots, localization, user feedback, performance analysis, process design, community operations">
+                功能试点、本地化、用户反馈、数据复盘、流程沉淀、社群运营
+              </p>
+            </section>
+            <section class="skill-group reveal">
+              <span class="skill-number">04</span>
+              <h3 data-zh="工具与表达" data-en="Tools &amp; expression">工具与表达</h3>
+              <p data-zh="Figma、Adobe Premiere Pro / Photoshop / InDesign、Excel、PowerPoint、SQL 基础、AI 工具" data-en="Figma, Adobe Premiere Pro / Photoshop / InDesign, Excel, PowerPoint, basic SQL, AI tools">
+                Figma、Adobe Premiere Pro / Photoshop / InDesign、Excel、PowerPoint、SQL 基础、AI 工具
+              </p>
+            </section>
+          </div>
+
+          <div class="language-note reveal">
+            <span data-zh="语言" data-en="Languages">语言</span>
+            <p data-zh="中文母语 · 英语可作为工作语言，能够完成英文访谈、方案沟通、文案撰写与跨团队协作。" data-en="Mandarin Chinese (native) · Professional working proficiency in English for interviews, presentations, copywriting, and cross-functional collaboration.">
+              中文母语 · 英语可作为工作语言，能够完成英文访谈、方案沟通、文案撰写与跨团队协作。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-shell">
+          <p class="contact-kicker reveal" data-zh="下一章，也许可以从一封邮件开始" data-en="The next chapter could start with an email">
+            下一章，也许可以从一封邮件开始
+          </p>
+          <h2 class="reveal">
+            <span data-zh="让我们一起做点" data-en="Let’s turn good ideas into">让我们一起做点</span>
+            <em data-zh="有意思的事！" data-en="moments people remember.">有意思的事！</em>
+          </h2>
+          <div class="contact-actions reveal">
+            <a class="button button-light" href="mailto:wangzimeng0923@163.com" data-email-link data-copy-send-email>
+              <span data-email-label>wangzimeng0923@163.com</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <button class="button button-light" type="button" data-copy-wechat>
+              <span data-zh="微信" data-en="WeChat">微信</span>
+              <strong>whos_tiiia</strong>
+              <span class="copy-hint" data-zh="点击复制" data-en="Click to copy">点击复制</span>
+            </button>
+          </div>
+          <div class="resume-downloads reveal">
+            <span data-zh="下载简历" data-en="Resume">下载简历</span>
+            <a href="assets/tia-resume-cn.pdf" download>
+              <span data-zh="中文版" data-en="Chinese">中文版</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a href="assets/tia-resume-en.pdf" download>
+              <span data-zh="English Version" data-en="English Version">English Version</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="project-dialog" id="starbucks-dialog">
+      <div class="dialog-panel">
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close">×</button>
+        <div class="dialog-hero dialog-hero-starbucks">
+          <p>FEATURED CASE / 01</p>
+          <h2 data-zh="把 Starbucks APP 从点单工具，变成留学生活的温暖陪伴" data-en="From a mobile ordering tool to a warm companion for international student life">
+            把 Starbucks APP 从点单工具，变成留学生活的温暖陪伴
+          </h2>
+          <span>$10,000 / 3 films / YouTube + Instagram</span>
+        </div>
+        <div class="dialog-content">
+          <section class="dialog-summary">
+            <div>
+              <span data-zh="项目性质" data-en="Project type">项目性质</span>
+              <strong data-zh="品牌策略提案" data-en="Brand strategy proposal">品牌策略提案</strong>
+            </div>
+            <div>
+              <span data-zh="角色" data-en="Role">角色</span>
+              <strong data-zh="项目负责人 · 独立完成" data-en="Project lead · Independent">项目负责人 · 独立完成</strong>
+            </div>
+            <div>
+              <span data-zh="时间" data-en="Timeline">时间</span>
+              <strong>2025.09 - Present</strong>
+            </div>
+          </section>
+
+          <section class="dialog-step">
+            <span class="dialog-step-number">01</span>
+            <div>
+              <h3 data-zh="问题与洞察" data-en="Problem &amp; insight">问题与洞察</h3>
+              <p
+                data-zh="北美中国留学生把 Starbucks 当作高频日常消费与熟悉的生活仪式，但许多人并不知道 APP 可以帮助在线点单、自定义饮品和分享礼品卡。小范围问卷与访谈进一步验证了“消费高频、功能认知低”的行为缺口。"
+                data-en="Chinese international students in North America relied on Starbucks as a frequent daily ritual, yet many were unaware that the app supported mobile ordering, drink customization, and gift cards. Small-scale surveys and interviews validated this gap between high consumption and low feature awareness."
+              >
+                北美中国留学生把 Starbucks 当作高频日常消费与熟悉的生活仪式，但许多人并不知道 APP 可以帮助在线点单、自定义饮品和分享礼品卡。小范围问卷与访谈进一步验证了“消费高频、功能认知低”的行为缺口。
+              </p>
+            </div>
+          </section>
+
+          <section class="dialog-step">
+            <span class="dialog-step-number">02</span>
+            <div>
+              <h3 data-zh="策略定位" data-en="Strategic positioning">策略定位</h3>
+              <p
+                data-zh="不只追求效率，更将 App 重新定义为一种温暖的情感陪伴：在高强度学习和陌生环境带来的孤独中，一杯熟悉的咖啡、一次便捷的点单，或一张可分享的电子礼品卡，都能成为连接人与人之间情感的纽带。"
+                data-en="Beyond efficiency, the app is reimagined as a source of warm emotional companionship. Amid the loneliness of intensive study and unfamiliar surroundings, a familiar cup of coffee, a seamless ordering experience, or a shareable e-gift card can all become small but meaningful ways to connect people."
+              >
+                不只追求效率，更将 App 重新定义为一种温暖的情感陪伴：在高强度学习和陌生环境带来的孤独中，一杯熟悉的咖啡、一次便捷的点单，或一张可分享的电子礼品卡，都能成为连接人与人之间情感的纽带。
+              </p>
+              <blockquote data-zh="功能教育负责让人知道，趋势内容负责让人想试，情感叙事负责打造差异点让人记住。" data-en="Functional education helps people understand what it does. Trend-driven content makes them want to try it. Emotional storytelling creates differentiation—and makes it memorable.">
+                功能教育负责让人知道，趋势内容负责让人想试，情感叙事负责打造差异点让人记住。
+              </blockquote>
+            </div>
+          </section>
+
+          <section class="dialog-step">
+            <span class="dialog-step-number">03</span>
+            <div>
+              <h3 data-zh="内容系统" data-en="Content system">内容系统</h3>
+              <div class="dialog-cards">
+                <article>
+                  <span>01</span>
+                  <h4 data-zh="功能教育" data-en="Feature education">功能教育</h4>
+                  <p data-zh="2 分钟 DIY 饮品教学，降低新用户对在线点单和自定义功能的理解门槛。" data-en="A two-minute drink customization guide that simplifies mobile ordering and personalization for new users.">
+                    2 分钟 DIY 饮品教学，降低新用户对在线点单和自定义功能的理解门槛。
+                  </p>
+                </article>
+                <article>
+                  <span>02</span>
+                  <h4 data-zh="趋势种草" data-en="Trend inspiration">趋势种草</h4>
+                  <p data-zh="15 至 20 秒考试周“找回灵感”快闪视频，适配 Instagram Reels 的快速浏览习惯。" data-en="A 15 to 20 second exam-week inspiration reel designed for Instagram’s fast browsing behavior.">
+                    15 至 20 秒考试周“找回灵感”快闪视频，适配 Instagram Reels 的快速浏览习惯。
+                  </p>
+                </article>
+                <article>
+                  <span>03</span>
+                  <h4 data-zh="情感共鸣" data-en="Emotional resonance">情感共鸣</h4>
+                  <p data-zh="2 至 3 分钟留学生生活纪录短片，用真实故事建立品牌温度和情感记忆。" data-en="A two-to-three-minute mini documentary telling real international-student stories to build warmth and emotional recall.">
+                    2 至 3 分钟留学生生活纪录短片，用真实故事建立品牌温度和情感记忆。
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="dialog-step">
+            <span class="dialog-step-number">04</span>
+            <div>
+              <h3 data-zh="渠道与预算" data-en="Channels &amp; budget">渠道与预算</h3>
+              <div class="budget-bars" aria-label="Budget allocation">
+                <div>
+                  <span data-zh="纪录短片" data-en="Mini documentary">纪录短片</span>
+                  <i style="--value: 45%"></i>
+                  <strong>$4,500</strong>
+                </div>
+                <div>
+                  <span data-zh="趋势快闪" data-en="Promotional reel">趋势快闪</span>
+                  <i style="--value: 22%"></i>
+                  <strong>$2,200</strong>
+                </div>
+                <div>
+                  <span data-zh="功能教学" data-en="Educational video">功能教学</span>
+                  <i style="--value: 18%"></i>
+                  <strong>$1,800</strong>
+                </div>
+              </div>
+              <p
+                data-zh="YouTube 承载长内容搜索与沉浸式叙事，Instagram 负责短内容扩散和即时互动，预算按内容目标而不是平均分配。"
+                data-en="YouTube carried searchable long-form storytelling and immersion, while Instagram created fast distribution and interaction. The budget followed content objectives rather than an even split."
+              >
+                YouTube 承载长内容搜索与沉浸式叙事，Instagram 负责短内容扩散和即时互动，预算按内容目标而不是平均分配。
+              </p>
+            </div>
+          </section>
+
+          <section class="dialog-step">
+            <span class="dialog-step-number">05</span>
+            <div>
+              <h3 data-zh="产出与反思" data-en="Output &amp; reflection">产出与反思</h3>
+              <p
+                data-zh="项目完成了 3 支视频拍摄和一份完整的英文策略提案，包括用户洞察、内容系统、平台策略与预算规划；核心价值在于展示从洞察到策略、创意和资源配置的完整推导能力。"
+                data-en="The project delivered three video productions and a comprehensive English-language strategic proposal covering user insights, a content ecosystem, platform strategy, and budget planning. Its core value lies in demonstrating an end-to-end ability to translate insights into strategy, creative execution, and resource allocation."
+              >
+                项目完成了 3 支视频拍摄和一份完整的英文策略提案，包括用户洞察、内容系统、平台策略与预算规划；核心价值在于展示从洞察到策略、创意和资源配置的完整推导能力。
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="project-dialog" id="douyin-dialog">
+      <div class="dialog-panel">
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close">×</button>
+        <div class="dialog-hero dialog-hero-douyin">
+          <p>CASE / 02</p>
+          <h2 data-zh="从内容感知，到商业合作与社群沉淀" data-en="From content sense to commercial partnerships and community">
+            从内容感知，到商业合作与社群沉淀
+          </h2>
+          <span>20K → 70K followers / 800 avg. viewers</span>
+        </div>
+        <div class="dialog-content">
+          <section class="dialog-step">
+            <span class="dialog-step-number">01</span>
+            <div>
+              <h3 data-zh="内容增长" data-en="Content growth">内容增长</h3>
+              <p
+                data-zh="独立负责主播账号的内容策划、实时提词、短视频选题、脚本、剪辑审核与发布优化。以完播率和互动表现为导向调整内容节奏，形成“内容触达、直播转化、社群沉淀、商业合作”的闭环。"
+                data-en="Owned the creator account end to end: content planning, live prompting, video ideation, scripts, editing review, and publishing optimization. Used completion and engagement data to shape content pacing and build a loop across reach, livestream conversion, community, and partnerships."
+              >
+                独立负责主播账号的内容策划、实时提词、短视频选题、脚本、剪辑审核与发布优化。以完播率和互动表现为导向调整内容节奏，形成“内容触达、直播转化、社群沉淀、商业合作”的闭环。
+              </p>
+            </div>
+          </section>
+          <section class="dialog-step">
+            <span class="dialog-step-number">02</span>
+            <div>
+              <h3 data-zh="商业与社群" data-en="Commerce &amp; community">商业与社群</h3>
+              <p
+                data-zh="负责品牌商务合作中的需求沟通、方案设计、报价协商和执行落地，验证创作者内容与品牌价值匹配的商业化路径；搭建并运营 7 个粉丝社群，其中 4 个千人社群和 3 个会员制社群，根据活跃度与付费意愿进行分层运营。"
+                data-en="Managed brand partnership needs, proposals, pricing, and execution to validate creator-brand fit. Built and operated seven fan communities, including four 1,000+ member groups and three membership communities segmented by engagement and willingness to pay."
+              >
+                负责品牌商务合作中的需求沟通、方案设计、报价协商和执行落地，验证创作者内容与品牌价值匹配的商业化路径；搭建并运营 7 个粉丝社群，其中 4 个千人社群和 3 个会员制社群，根据活跃度与付费意愿进行分层运营。
+              </p>
+            </div>
+          </section>
+          <div class="dialog-link-row">
+            <a class="button button-primary" href="https://v.douyin.com/Xjl5zFWXbNA/" target="_blank" rel="noopener noreferrer">
+              <span data-zh="访问抖音账号" data-en="Visit Douyin">访问抖音账号</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="project-dialog" id="duolingo-dialog">
+      <div class="dialog-panel">
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close">×</button>
+        <div class="dialog-hero dialog-hero-duolingo">
+          <p>CASE / 03</p>
+          <h2 data-zh="让韩语学习围绕“粉丝真正想接近的世界”展开" data-en="Designing Korean learning around the world fans want to feel closer to">
+            让韩语学习围绕“粉丝真正想接近的世界”展开
+          </h2>
+          <span>K-pop fans / prototype / 3 usability rounds</span>
+        </div>
+        <div class="dialog-content">
+          <section class="dialog-step">
+            <span class="dialog-step-number">01</span>
+            <div>
+              <h3 data-zh="用户洞察" data-en="Audience insight">用户洞察</h3>
+              <p
+                data-zh="基于 16 至 28 岁全球 K-pop 用户的背景与二手研究，提炼出“粉丝优先、偶像内容驱动、沉浸式文化学习”的理念，识别现有汉语学习平台缺少粉丝场景、内容与偶像文化脱节的核心痛点。"
+                data-en="Based on secondary research into global K-pop fans aged 16–28, I identified a fan-first, idol-content-driven, and immersive cultural-learning opportunity. The research also revealed a key gap in existing Chinese-learning platforms: they lack fan-centered use cases and fail to connect language learning with idol culture."
+              >
+                基于 16 至 28 岁全球 K-pop 用户的背景与二手研究，提炼出“粉丝优先、偶像内容驱动、沉浸式文化学习”的理念，识别现有汉语学习平台缺少粉丝场景、内容与偶像文化脱节的核心痛点。
+              </p>
+            </div>
+          </section>
+          <section class="dialog-step">
+            <span class="dialog-step-number">02</span>
+            <div>
+              <h3 data-zh="产品设计与验证" data-en="Product design &amp; validation">产品设计与验证</h3>
+              <p
+                data-zh="主导从用户需求到功能架构的原型搭建，围绕演唱会、粉丝见面会和歌词学习等真实场景设计学习路径。完成 3 轮一对一远程可用性测试，基于任务完成、导航路径和情绪反馈迭代方案。"
+                data-en="Led prototype development and feature architecture around concerts, fan meetings, and lyric learning. Ran three rounds of remote one-to-one usability tests, iterating based on task completion, navigation, and emotional feedback."
+              >
+                主导从用户需求到功能架构的原型搭建，围绕演唱会、粉丝见面会和歌词学习等真实场景设计学习路径。完成 3 轮一对一远程可用性测试，基于任务完成、导航路径和情绪反馈迭代方案。
+              </p>
+            </div>
+          </section>
+          <div class="dialog-link-row">
+            <a
+              class="button button-primary"
+              href="https://www.figma.com/design/VzUCkEdf0CRMuUBTbE1hVF/Team-3-COMMLD-511-SP-26-Prototype?node-id=156-621"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span data-zh="查看 Figma 原型" data-en="View Figma prototype">查看 Figma 原型</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="app.js?v=resume-language-20261005"></script>
+  </body>
+</html>
